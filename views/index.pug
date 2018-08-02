@@ -3,14 +3,14 @@ extends layout
 block content
  div(class="mian")
    div(class="adframe")
-   each val, index in {1:'一',2:'二',3:'三',4:'四'}
+   each val in [{ name: "网站建设",content:"专业建站团队为您售后服务",ico:"fa-code"},{name: "域名注册",content:"个性化域名出售",ico:"fa-diamond"},{name: "虚拟主机",content:"快速稳定虚拟机空间出租",ico:"fa-cloud "},{name: "微信公众号",content:"微信公众号注册定制",ico:"fa-weixin"}]
     div(class="adleft")
        div(class="ico")
-         i(class="fa fa-code")
-       span(class="title") 网站建设
-       span(class="depict") 专业建站团队为您售后服务
+         i(class=`fa ${val.ico}`)
+       span(class="title") #{val.name}
+       span(class="depict") #{val.content}
        div#r(class="right")
          div(class="rbt")
-          span 网站建设
+          span #{val.name}
     div(class="adright")
 
