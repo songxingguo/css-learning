@@ -1,5 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p 欢迎你！ #{title}
+ div(class="mian")
+   div(class="adframe")
+   each val, index in {1:'一',2:'二',3:'三',4:'四'}
+    div(class="adleft")
+       div(class="ico")
+         i(class="fa fa-code")
+       span(class="title") 网站建设
+       span(class="depict") 专业建站团队为您售后服务
+       div#r(class="right")
+         div(class="rbt")
+          span 网站建设
+    div(class="adright")
+
