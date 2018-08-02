@@ -1,0 +1,22 @@
+{
+  "name": "works",
+  "version": "1.0.0",
+  "description": "作品展示",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.coding.net:songxingguo/works.git"
+  },
+  "keywords": [
+    "sxg"
+  ],
+  "author": "songxingguo",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-static": "^5.0.0"
+  }
+}
