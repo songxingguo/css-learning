@@ -358,3 +358,515 @@
 2018-08-02 17:58 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
 2018-08-02 17:58 +00:00:   <-- GET /images/bg.jpg
 2018-08-02 17:58 +00:00:   --> GET /images/bg.jpg 200 2ms 44.07kb
+2018-08-02 18:00 +00:00:   <-- GET /
+2018-08-02 18:00 +00:00: GET / - 34ms
+2018-08-02 18:00 +00:00:   --> GET / 200 37ms 1.54kb
+2018-08-02 18:00 +00:00:   <-- GET /stylesheets/style.css
+2018-08-02 18:00 +00:00:   <-- GET /stylesheets/css.css
+2018-08-02 18:00 +00:00:   <-- GET /javascripts/js.js
+2018-08-02 18:00 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-02 18:00 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-02 18:00 +00:00:   --> GET /javascripts/js.js 200 5ms 2.35kb
+2018-08-02 18:00 +00:00:   <-- GET /images/bg.jpg
+2018-08-02 18:00 +00:00:   --> GET /images/bg.jpg 200 2ms 44.07kb
+2018-08-02 18:00 +00:00:   <-- GET /favicon.ico
+2018-08-02 18:00 +00:00: GET /favicon.ico - 0ms
+2018-08-02 18:00 +00:00:   --> GET /favicon.ico 404 3ms -
+2018-08-02 18:01 +00:00:   <-- GET /
+2018-08-02 18:01 +00:00: GET / - 40ms
+2018-08-02 18:01 +00:00:   --> GET / 200 42ms 1.54kb
+2018-08-02 18:01 +00:00:   <-- GET /stylesheets/style.css
+2018-08-02 18:01 +00:00:   --> GET /stylesheets/style.css 200 2ms 206b
+2018-08-02 18:01 +00:00:   <-- GET /stylesheets/css.css
+2018-08-02 18:01 +00:00:   --> GET /stylesheets/css.css 200 1ms 1.01kb
+2018-08-02 18:01 +00:00:   <-- GET /javascripts/js.js
+2018-08-02 18:01 +00:00:   --> GET /javascripts/js.js 200 2ms 2.35kb
+2018-08-02 18:01 +00:00:   <-- GET /images/bg.jpg
+2018-08-02 18:01 +00:00:   --> GET /images/bg.jpg 200 2ms 44.07kb
+2018-08-02 18:02 +00:00:   <-- GET /
+2018-08-02 18:03 +00:00: GET / - 56ms
+2018-08-02 18:03 +00:00:   --> GET / 200 60ms 1.54kb
+2018-08-02 18:03 +00:00:   <-- GET /javascripts/js.js
+2018-08-02 18:03 +00:00:   --> GET /javascripts/js.js 200 2ms 2.35kb
+2018-08-02 18:06 +00:00:   <-- GET /
+2018-08-02 18:06 +00:00: GET / - 40ms
+2018-08-02 18:06 +00:00:   --> GET / 200 43ms 1.54kb
+2018-08-02 18:06 +00:00:   <-- GET /stylesheets/style.css
+2018-08-02 18:06 +00:00:   <-- GET /stylesheets/css.css
+2018-08-02 18:06 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-02 18:06 +00:00:   <-- GET /javascripts/js.js
+2018-08-02 18:06 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-02 18:06 +00:00:   --> GET /javascripts/js.js 200 2ms 2.35kb
+2018-08-02 18:06 +00:00:   <-- GET /images/bg.jpg
+2018-08-02 18:06 +00:00:   --> GET /images/bg.jpg 200 2ms 44.07kb
+2018-08-02 18:06 +00:00:   <-- GET /favicon.ico
+2018-08-02 18:06 +00:00: GET /favicon.ico - 0ms
+2018-08-02 18:06 +00:00:   --> GET /favicon.ico 404 3ms -
+2018-08-02 18:06 +00:00:   <-- GET /
+2018-08-02 18:06 +00:00: GET / - 61ms
+2018-08-02 18:06 +00:00:   --> GET / 200 63ms 1.54kb
+2018-08-02 18:06 +00:00:   <-- GET /
+2018-08-02 18:06 +00:00: GET / - 21ms
+2018-08-02 18:06 +00:00:   --> GET / 200 24ms 1.54kb
+2018-08-02 18:06 +00:00:   <-- GET /
+2018-08-02 18:06 +00:00: GET / - 36ms
+2018-08-02 18:06 +00:00:   --> GET / 200 38ms 1.54kb
+2018-08-02 18:06 +00:00:   <-- GET /stylesheets/css.css
+2018-08-02 18:06 +00:00:   <-- GET /javascripts/js.js
+2018-08-02 18:06 +00:00:   <-- GET /stylesheets/style.css
+2018-08-02 18:06 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-02 18:06 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-02 18:06 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-02 18:06 +00:00:   <-- GET /images/bg.jpg
+2018-08-02 18:06 +00:00:   --> GET /images/bg.jpg 200 2ms 44.07kb
+2018-08-02 18:06 +00:00:   <-- GET /favicon.ico
+2018-08-02 18:06 +00:00: GET /favicon.ico - 0ms
+2018-08-02 18:06 +00:00:   --> GET /favicon.ico 404 3ms -
+2018-08-02 18:07 +00:00:   <-- GET /
+2018-08-02 18:07 +00:00: GET / - 24ms
+2018-08-02 18:07 +00:00:   --> GET / 200 27ms 1.54kb
+2018-08-02 18:07 +00:00:   <-- GET /stylesheets/style.css
+2018-08-02 18:07 +00:00:   <-- GET /stylesheets/css.css
+2018-08-02 18:07 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-02 18:07 +00:00:   <-- GET /javascripts/js.js
+2018-08-02 18:07 +00:00:   --> GET /stylesheets/css.css 200 3ms 1.01kb
+2018-08-02 18:07 +00:00:   --> GET /javascripts/js.js 200 2ms 2.35kb
+2018-08-02 18:07 +00:00:   <-- GET /images/bg.jpg
+2018-08-02 18:07 +00:00:   --> GET /images/bg.jpg 200 2ms 44.07kb
+2018-08-02 18:07 +00:00:   <-- GET /favicon.ico
+2018-08-02 18:07 +00:00: GET /favicon.ico - 0ms
+2018-08-02 18:07 +00:00:   --> GET /favicon.ico 404 2ms -
+2018-08-02 18:07 +00:00:   <-- GET /
+2018-08-02 18:07 +00:00: GET / - 27ms
+2018-08-02 18:07 +00:00:   --> GET / 200 30ms 1.54kb
+2018-08-02 18:07 +00:00:   <-- GET /stylesheets/style.css
+2018-08-02 18:07 +00:00:   <-- GET /stylesheets/css.css
+2018-08-02 18:07 +00:00:   <-- GET /javascripts/js.js
+2018-08-02 18:07 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-02 18:07 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-02 18:07 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-02 18:07 +00:00:   <-- GET /images/bg.jpg
+2018-08-02 18:07 +00:00:   --> GET /images/bg.jpg 200 2ms 44.07kb
+2018-08-03 02:40 +00:00:   <-- GET /
+2018-08-03 02:40 +00:00: GET / - 21ms
+2018-08-03 02:40 +00:00:   --> GET / 200 34ms 1.54kb
+2018-08-03 02:40 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 02:40 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 02:40 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 02:40 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-03 02:40 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-03 02:40 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-03 02:40 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 02:40 +00:00:   --> GET /images/bg.jpg 200 3ms 44.07kb
+2018-08-03 02:40 +00:00:   <-- GET /favicon.ico
+2018-08-03 02:40 +00:00: GET /favicon.ico - 0ms
+2018-08-03 02:40 +00:00:   --> GET /favicon.ico 404 1ms -
+2018-08-03 03:03 +00:00:   <-- GET /
+2018-08-03 03:03 +00:00: GET / - 45ms
+2018-08-03 03:03 +00:00:   --> GET / 200 55ms 1.54kb
+2018-08-03 03:03 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:03 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:03 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 03:03 +00:00:   --> GET /stylesheets/css.css 200 20ms 1.01kb
+2018-08-03 03:03 +00:00:   --> GET /stylesheets/style.css 200 21ms 206b
+2018-08-03 03:03 +00:00:   --> GET /javascripts/js.js 200 19ms 2.35kb
+2018-08-03 03:03 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 03:03 +00:00:   --> GET /images/bg.jpg 200 3ms 334.89kb
+2018-08-03 03:11 +00:00:   <-- GET /
+2018-08-03 03:11 +00:00: GET / - 46ms
+2018-08-03 03:11 +00:00:   --> GET / 200 54ms 1.54kb
+2018-08-03 03:11 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:11 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:11 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 03:11 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-03 03:11 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-03 03:11 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-03 03:11 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 03:11 +00:00:   --> GET /images/bg.jpg 200 7ms 542.17kb
+2018-08-03 03:12 +00:00:   <-- GET /
+2018-08-03 03:12 +00:00: GET / - 23ms
+2018-08-03 03:12 +00:00:   --> GET / 200 26ms 1.54kb
+2018-08-03 03:12 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:12 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:12 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 03:12 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-03 03:12 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-03 03:12 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-03 03:12 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 03:12 +00:00:   --> GET /images/bg.jpg 200 6ms 841.55kb
+2018-08-03 03:13 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:13 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:13 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-03 03:13 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-03 03:13 +00:00:   <-- GET /
+2018-08-03 03:13 +00:00: GET / - 21ms
+2018-08-03 03:13 +00:00:   --> GET / 200 25ms 1.54kb
+2018-08-03 03:13 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:13 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:13 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 03:13 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-03 03:13 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-03 03:13 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-03 03:13 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 03:13 +00:00:   --> GET /images/bg.jpg 200 9ms 841.55kb
+2018-08-03 03:20 +00:00:   <-- GET /
+2018-08-03 03:20 +00:00: GET / - 17ms
+2018-08-03 03:20 +00:00:   --> GET / 200 21ms 1.54kb
+2018-08-03 03:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 03:20 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-03 03:20 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.01kb
+2018-08-03 03:20 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-03 03:20 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 03:20 +00:00:   --> GET /images/bg.jpg 200 14ms 542.17kb
+2018-08-03 03:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:20 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-03 03:20 +00:00:   --> GET /stylesheets/css.css 200 3ms 1.01kb
+2018-08-03 03:23 +00:00:   <-- GET /
+2018-08-03 03:23 +00:00: GET / - 31ms
+2018-08-03 03:23 +00:00:   --> GET / 200 34ms 1.54kb
+2018-08-03 03:23 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:23 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:23 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 03:23 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-03 03:23 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.01kb
+2018-08-03 03:23 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-03 03:23 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 03:23 +00:00:   --> GET /images/bg.jpg 200 13ms 542.17kb
+2018-08-03 03:23 +00:00:   <-- GET /
+2018-08-03 03:23 +00:00: GET / - 25ms
+2018-08-03 03:23 +00:00:   --> GET / 200 27ms 1.54kb
+2018-08-03 03:23 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 03:23 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 03:23 +00:00:   --> GET /stylesheets/style.css 200 3ms 206b
+2018-08-03 03:23 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 03:23 +00:00:   --> GET /stylesheets/css.css 200 3ms 1.01kb
+2018-08-03 03:23 +00:00:   --> GET /javascripts/js.js 200 2ms 2.35kb
+2018-08-03 03:23 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 03:23 +00:00:   --> GET /images/bg.jpg 200 14ms 542.17kb
+2018-08-03 03:23 +00:00:   <-- GET /favicon.ico
+2018-08-03 03:23 +00:00: GET /favicon.ico - 0ms
+2018-08-03 03:23 +00:00:   --> GET /favicon.ico 404 12ms -
+2018-08-03 13:36 +00:00:   <-- GET /
+2018-08-03 13:36 +00:00: GET / - 31ms
+2018-08-03 13:36 +00:00:   --> GET / 200 45ms 1.54kb
+2018-08-03 13:36 +00:00:   <-- GET /stylesheets/style.css
+2018-08-03 13:36 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-03 13:36 +00:00:   <-- GET /stylesheets/css.css
+2018-08-03 13:36 +00:00:   <-- GET /javascripts/js.js
+2018-08-03 13:36 +00:00:   --> GET /stylesheets/css.css 200 3ms 1.01kb
+2018-08-03 13:36 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-03 13:36 +00:00:   <-- GET /images/bg.jpg
+2018-08-03 13:36 +00:00:   --> GET /images/bg.jpg 200 27ms 542.17kb
+2018-08-03 13:36 +00:00:   <-- GET /favicon.ico
+2018-08-03 13:36 +00:00: GET /favicon.ico - 0ms
+2018-08-03 13:36 +00:00:   --> GET /favicon.ico 404 2ms -
+2018-08-04 01:32 +00:00:   <-- GET /
+2018-08-04 01:32 +00:00: GET / - 17ms
+2018-08-04 01:32 +00:00:   --> GET / 200 24ms 1.54kb
+2018-08-04 01:32 +00:00:   <-- GET /stylesheets/css.css
+2018-08-04 01:32 +00:00:   <-- GET /stylesheets/style.css
+2018-08-04 01:32 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.01kb
+2018-08-04 01:32 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-04 01:32 +00:00:   <-- GET /javascripts/js.js
+2018-08-04 01:32 +00:00:   --> GET /javascripts/js.js 200 2ms 2.35kb
+2018-08-04 01:32 +00:00:   <-- GET /images/bg.jpg
+2018-08-04 01:32 +00:00:   --> GET /images/bg.jpg 200 16ms 542.17kb
+2018-08-04 02:58 +00:00:   <-- GET /
+2018-08-04 02:58 +00:00: GET / - 22ms
+2018-08-04 02:58 +00:00:   --> GET / 200 24ms 1.54kb
+2018-08-04 02:58 +00:00:   <-- GET /stylesheets/style.css
+2018-08-04 02:58 +00:00:   --> GET /stylesheets/style.css 200 2ms 206b
+2018-08-04 02:58 +00:00:   <-- GET /stylesheets/css.css
+2018-08-04 02:58 +00:00:   --> GET /stylesheets/css.css 200 1ms 1.01kb
+2018-08-04 02:58 +00:00:   <-- GET /javascripts/js.js
+2018-08-04 02:58 +00:00:   --> GET /javascripts/js.js 200 1ms 2.35kb
+2018-08-04 02:58 +00:00:   <-- GET /images/bg.jpg
+2018-08-04 02:58 +00:00:   --> GET /images/bg.jpg 200 8ms 542.17kb
+2018-08-06 06:10 +00:00:   <-- GET /
+2018-08-06 06:10 +00:00: GET / - 38ms
+2018-08-06 06:10 +00:00:   --> GET / 200 50ms 1.54kb
+2018-08-06 06:10 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:10 +00:00:   --> GET /stylesheets/style.css 200 2ms 206b
+2018-08-06 06:10 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:10 +00:00:   --> GET /stylesheets/css.css 200 2ms 1.01kb
+2018-08-06 06:10 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:10 +00:00:   --> GET /javascripts/js.js 200 2ms 2.35kb
+2018-08-06 06:10 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:10 +00:00:   --> GET /images/bg.jpg 200 29ms 999.26kb
+2018-08-06 06:11 +00:00:   <-- GET /
+2018-08-06 06:11 +00:00: GET / - 22ms
+2018-08-06 06:11 +00:00:   --> GET / 200 28ms 1.54kb
+2018-08-06 06:11 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:11 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:11 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:11 +00:00:   --> GET /stylesheets/style.css 200 6ms 206b
+2018-08-06 06:11 +00:00:   --> GET /stylesheets/css.css 200 6ms 1.01kb
+2018-08-06 06:11 +00:00:   --> GET /javascripts/js.js 200 7ms 2.35kb
+2018-08-06 06:11 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:11 +00:00:   --> GET /images/bg.jpg 200 11ms 999.26kb
+2018-08-06 06:11 +00:00:   <-- GET /favicon.ico
+2018-08-06 06:11 +00:00: GET /favicon.ico - 1ms
+2018-08-06 06:11 +00:00:   --> GET /favicon.ico 404 3ms -
+2018-08-06 06:12 +00:00:   <-- GET /
+2018-08-06 06:12 +00:00: GET / - 26ms
+2018-08-06 06:12 +00:00:   --> GET / 200 28ms 1.54kb
+2018-08-06 06:12 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:12 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:12 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:12 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:12 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.04kb
+2018-08-06 06:12 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:12 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:12 +00:00:   --> GET /images/bg.jpg 200 11ms 999.26kb
+2018-08-06 06:13 +00:00:   <-- GET /
+2018-08-06 06:13 +00:00: GET / - 14ms
+2018-08-06 06:13 +00:00:   --> GET / 200 16ms 1.54kb
+2018-08-06 06:13 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:13 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:13 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:13 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-06 06:13 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.07kb
+2018-08-06 06:13 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:13 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:13 +00:00:   --> GET /images/bg.jpg 200 11ms 999.26kb
+2018-08-06 06:14 +00:00:   <-- GET /
+2018-08-06 06:14 +00:00: GET / - 16ms
+2018-08-06 06:14 +00:00:   --> GET / 200 18ms 1.54kb
+2018-08-06 06:14 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:14 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:14 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:14 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:14 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.07kb
+2018-08-06 06:14 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-06 06:14 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:14 +00:00:   --> GET /images/bg.jpg 200 9ms 999.26kb
+2018-08-06 06:15 +00:00:   <-- GET /
+2018-08-06 06:15 +00:00: GET / - 14ms
+2018-08-06 06:15 +00:00:   --> GET / 200 16ms 1.54kb
+2018-08-06 06:15 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:15 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:15 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:15 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:15 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.09kb
+2018-08-06 06:15 +00:00:   --> GET /javascripts/js.js 200 5ms 2.35kb
+2018-08-06 06:15 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:15 +00:00:   --> GET /images/bg.jpg 200 6ms 999.26kb
+2018-08-06 06:15 +00:00:   <-- GET /
+2018-08-06 06:15 +00:00: GET / - 14ms
+2018-08-06 06:15 +00:00:   --> GET / 200 17ms 1.54kb
+2018-08-06 06:15 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:15 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:15 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:15 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-06 06:15 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.09kb
+2018-08-06 06:15 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:15 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:15 +00:00:   --> GET /images/bg.jpg 200 18ms 999.26kb
+2018-08-06 06:16 +00:00:   <-- GET /
+2018-08-06 06:16 +00:00: GET / - 13ms
+2018-08-06 06:16 +00:00:   --> GET / 200 15ms 1.54kb
+2018-08-06 06:16 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:16 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:16 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:16 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:16 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.12kb
+2018-08-06 06:16 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-06 06:16 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:16 +00:00:   --> GET /images/bg.jpg 200 16ms 999.26kb
+2018-08-06 06:16 +00:00:   <-- GET /
+2018-08-06 06:16 +00:00: GET / - 15ms
+2018-08-06 06:16 +00:00:   --> GET / 200 18ms 1.54kb
+2018-08-06 06:16 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:16 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:16 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:16 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-06 06:16 +00:00:   --> GET /stylesheets/css.css 200 3ms 1.12kb
+2018-08-06 06:16 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-06 06:16 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:16 +00:00:   --> GET /images/bg.jpg 200 6ms 999.26kb
+2018-08-06 06:17 +00:00:   <-- GET /
+2018-08-06 06:17 +00:00: GET / - 13ms
+2018-08-06 06:17 +00:00:   --> GET / 200 16ms 1.54kb
+2018-08-06 06:17 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:17 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:17 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:17 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:17 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.12kb
+2018-08-06 06:17 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-06 06:17 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:17 +00:00:   --> GET /images/bg.jpg 200 7ms 999.26kb
+2018-08-06 06:17 +00:00:   <-- GET /favicon.ico
+2018-08-06 06:17 +00:00: GET /favicon.ico - 0ms
+2018-08-06 06:17 +00:00:   --> GET /favicon.ico 404 1ms -
+2018-08-06 06:17 +00:00:   <-- GET /
+2018-08-06 06:17 +00:00: GET / - 16ms
+2018-08-06 06:17 +00:00:   --> GET / 200 18ms 1.54kb
+2018-08-06 06:17 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:17 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:17 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:17 +00:00:   --> GET /stylesheets/style.css 200 6ms 206b
+2018-08-06 06:17 +00:00:   --> GET /stylesheets/css.css 200 6ms 1.14kb
+2018-08-06 06:17 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:17 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:17 +00:00:   --> GET /images/bg.jpg 200 6ms 999.26kb
+2018-08-06 06:18 +00:00:   <-- GET /
+2018-08-06 06:18 +00:00: GET / - 31ms
+2018-08-06 06:18 +00:00:   --> GET / 200 33ms 1.54kb
+2018-08-06 06:18 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:18 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:18 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:18 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:18 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.14kb
+2018-08-06 06:18 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-06 06:18 +00:00:   <-- GET /images/bg.jpg
+2018-08-06 06:18 +00:00:   --> GET /images/bg.jpg 200 6ms 999.26kb
+2018-08-06 06:18 +00:00:   <-- GET /favicon.ico
+2018-08-06 06:18 +00:00: GET /favicon.ico - 0ms
+2018-08-06 06:18 +00:00:   --> GET /favicon.ico 404 2ms -
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 12ms
+2018-08-06 06:20 +00:00:   --> GET / 200 14ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 10ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 13ms
+2018-08-06 06:20 +00:00:   --> GET / 200 16ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 12ms
+2018-08-06 06:20 +00:00:   --> GET / 200 15ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 8ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 8ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 7ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 39ms
+2018-08-06 06:20 +00:00:   --> GET / 200 42ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 26ms
+2018-08-06 06:20 +00:00:   --> GET / 200 28ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 19ms
+2018-08-06 06:20 +00:00:   --> GET / 200 22ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 5ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 5ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 20ms
+2018-08-06 06:20 +00:00:   --> GET / 200 23ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 6ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 5ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 23ms
+2018-08-06 06:20 +00:00:   --> GET / 200 26ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 3ms 206b
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 2ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 3ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 18ms
+2018-08-06 06:20 +00:00:   --> GET / 200 20ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 7ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 5ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 17ms
+2018-08-06 06:20 +00:00:   --> GET / 200 20ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 6ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 5ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 14ms
+2018-08-06 06:20 +00:00:   --> GET / 200 15ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 3ms 1.17kb
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:20 +00:00:   <-- GET /
+2018-08-06 06:20 +00:00: GET / - 12ms
+2018-08-06 06:20 +00:00:   --> GET / 200 14ms 1.54kb
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:20 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/style.css 200 3ms 206b
+2018-08-06 06:20 +00:00:   --> GET /stylesheets/css.css 200 3ms 1.17kb
+2018-08-06 06:20 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:20 +00:00:   --> GET /javascripts/js.js 200 1ms 2.35kb
+2018-08-06 06:23 +00:00:   <-- GET /
+2018-08-06 06:23 +00:00: GET / - 25ms
+2018-08-06 06:23 +00:00:   --> GET / 200 28ms 1.54kb
+2018-08-06 06:23 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:23 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:23 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:23 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:23 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.17kb
+2018-08-06 06:23 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:24 +00:00:   <-- GET /
+2018-08-06 06:24 +00:00: GET / - 20ms
+2018-08-06 06:24 +00:00:   --> GET / 200 23ms 1.54kb
+2018-08-06 06:24 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:24 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:24 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:24 +00:00:   --> GET /stylesheets/style.css 200 7ms 206b
+2018-08-06 06:24 +00:00:   --> GET /stylesheets/css.css 200 7ms 1.17kb
+2018-08-06 06:24 +00:00:   --> GET /javascripts/js.js 200 5ms 2.35kb
+2018-08-06 06:25 +00:00:   <-- GET /
+2018-08-06 06:25 +00:00: GET / - 32ms
+2018-08-06 06:25 +00:00:   --> GET / 200 35ms 1.54kb
+2018-08-06 06:25 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:25 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:25 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:25 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:25 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.17kb
+2018-08-06 06:25 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
+2018-08-06 06:25 +00:00:   <-- GET /
+2018-08-06 06:25 +00:00: GET / - 12ms
+2018-08-06 06:25 +00:00:   --> GET / 200 15ms 1.54kb
+2018-08-06 06:25 +00:00:   <-- GET /stylesheets/style.css
+2018-08-06 06:25 +00:00:   <-- GET /stylesheets/css.css
+2018-08-06 06:25 +00:00:   <-- GET /javascripts/js.js
+2018-08-06 06:25 +00:00:   --> GET /stylesheets/style.css 200 4ms 206b
+2018-08-06 06:25 +00:00:   --> GET /stylesheets/css.css 200 4ms 1.17kb
+2018-08-06 06:25 +00:00:   --> GET /javascripts/js.js 200 4ms 2.35kb
