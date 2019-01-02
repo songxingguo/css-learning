@@ -6,6 +6,7 @@
     "start": "node bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www",
+    "release": "node ./routes/release.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
     "pug": "^2.0.0-rc.1"
   },
   "devDependencies": {
+    "ncp": "^2.0.0",
     "nodemon": "^1.8.1"
   }
 }
