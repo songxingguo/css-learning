@@ -1,5 +1,5 @@
 const { resolve, join } = require('path')
-const {mkdir, writeFileSync} = require('fs');
+const {mkdir, writeFileSync, readdirSync, statSync} = require('fs');
 const compileFile = require('pug').compileFile;
 const ncp = require('ncp').ncp;
 
@@ -9,7 +9,7 @@ const fieldArr = ['pcUrl', 'mbUrl', 'QRCodeUrl']; // 需要清洗的属性
 const prefix = './../../public'; // 需要清洗数据的前缀
 const dir = './../public/'; // 静态文件读取目录
 
-(function translateToHtml(path, {
+(function translateToHtmls(path, {
   options = {},
   root = './dist/',
   prefix = '',
@@ -33,14 +33,27 @@ const dir = './../public/'; // 静态文件读取目录
     }
   })
 
-  // 拷贝 styles 到 dist 目录
-  ncp(resolve(__dirname, dir + 'styles/'), outdir + 'styles');
-  // 拷贝 images 到 dist 目录
-  ncp(resolve(__dirname, dir + 'images/'), outdir + 'images');
-  // 拷贝 js 到 dist 目录
-  ncp(resolve(__dirname, dir + 'js/'), outdir + 'js');
+  copyDir();
 })(path, {
   options: works,
   prefix: prefix,
   dir: dir
 });
+
+function clearField () {
+
+}
+
+function translateToHtml () {
+
+}
+
+function copyDir (dir = './public/', outdir = './dist/') {
+  readdirSync(dir).forEach(function (file) {
+    if (statSync(join(dir, file)).isDirectory()) {
+      mkdir(join(outdir), function () {
+        ncp(resolve(dir, file), resolve(outdir, file));
+      });
+    }
+  })
+}
