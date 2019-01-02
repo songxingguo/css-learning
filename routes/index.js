@@ -1,8 +1,8 @@
 const router = require('koa-router')()
-const { home } = require('./../public/data/index.json');
+const works = require('./../public/data/index.json');
 
 router.get('/', async (ctx, next) => {
-  await ctx.render('index', home)
+  await ctx.render('index', works)
 })
 
 module.exports = router

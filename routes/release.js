@@ -11,7 +11,7 @@ const works = require('./../public/data/index.json');
   options = {},
 } = {}) {
   translateToHtml(entry, outdir, {
-    options: options['home']
+    options: options
   });
 
   copyDir();
