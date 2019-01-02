@@ -1,57 +1,40 @@
-const { resolve, join } = require('path')
+const {resolve, join} = require('path')
 const {mkdir, writeFileSync, readdirSync, statSync} = require('fs');
 const compileFile = require('pug').compileFile;
 const ncp = require('ncp').ncp;
 
-const path = './../views/index.pug'; // 入口文件
+const entry = './../views/index.pug'; // 入口文件
+const outdir = './dist/'; // 出口目录
 const works = require('./../public/data/index.json');
-const fieldArr = ['pcUrl', 'mbUrl', 'QRCodeUrl']; // 需要清洗的属性
-const prefix = './../../public'; // 需要清洗数据的前缀
-const dir = './../public/'; // 静态文件读取目录
 
-(function translateToHtmls(path, {
+(function translate (entry, outdir,{
   options = {},
-  root = './dist/',
-  prefix = '',
-  fieldArr = [],
-  dir = './../assets/',
-  outdir = 'dist/'
 } = {}) {
-  // 创建根目录
-  mkdir(join(root), function () {
-    for(const item in options) {
-      // 为数据中的路径添加前缀
-      for (const field of fieldArr) {
-        options[item][field] = prefix + options[item][field];
-      }
-      console.log(options[item]);
-      translateToHtml(path, './dist/', item, {
-        options: options[item]
-      });
-    }
-  })
+  translateToHtml(entry, outdir, {
+    options: options['home']
+  });
 
   copyDir();
-})(path, {
-  options: works,
-  prefix: prefix,
-  dir: dir
+})(entry, outdir, {
+  options: works
 });
 
-function clearField () {
-
-}
-
-function translateToHtml (path, outPath, muduleName, {
+function translateToHtml (entry, outdir, {
+  muduleName = '',
   options = {},
-  fileName='index'
-}) {
+  fileName = 'index'
+} = {}) {
   // 将 pug 转义成 html
-  const html =  compileFile(resolve(__dirname, path))(options);
-  // 创建模块目录
-  mkdir(join(outPath, muduleName), function () {
-    writeFileSync(join(outPath, muduleName, '/' + fileName + '.html'), html)
-  });
+  const html = compileFile(resolve(__dirname, entry))(options);
+
+  if (!muduleName) {
+    // 创建模块目录
+    mkdir(join(outdir, muduleName), function () {
+      writeFileSync(join(outdir, muduleName, '/' + fileName + '.html'), html)
+    });
+  } else {
+    writeFileSync(join(outdir, '/' + fileName + '.html'), html)
+  }
 }
 
 function copyDir (dir = './public/', outdir = './dist/') {
