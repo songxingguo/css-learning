@@ -24,11 +24,9 @@ const dir = './../public/'; // 静态文件读取目录
       for (const field of fieldArr) {
         options[item][field] = prefix + options[item][field];
       }
-      // 将 pug 转义成 html
-      const html =  compileFile(resolve(__dirname, path))(options[item]);
-      // 创建模块目录
-      mkdir(join(root, item), function () {
-        writeFileSync(join(root, item, '/index.html'), html)
+      console.log(options[item]);
+      translateToHtml(path, './dist/', item, {
+        options: options[item]
       });
     }
   })
@@ -44,14 +42,26 @@ function clearField () {
 
 }
 
-function translateToHtml () {
-
+function translateToHtml (path, outPath, muduleName, {
+  options = {},
+  fileName='index'
+}) {
+  // 将 pug 转义成 html
+  const html =  compileFile(resolve(__dirname, path))(options);
+  // 创建模块目录
+  mkdir(join(outPath, muduleName), function () {
+    writeFileSync(join(outPath, muduleName, '/' + fileName + '.html'), html)
+  });
 }
 
 function copyDir (dir = './public/', outdir = './dist/') {
+  // 遍历所有子目录
   readdirSync(dir).forEach(function (file) {
+    // 判断是否是目录
     if (statSync(join(dir, file)).isDirectory()) {
+      // 创建根目录
       mkdir(join(outdir), function () {
+        // 拷贝子目录
         ncp(resolve(dir, file), resolve(outdir, file));
       });
     }
