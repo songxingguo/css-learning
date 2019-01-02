@@ -1,0 +1,212 @@
+$ground: #FAE58C;
+$primary: #FBF9D2;
+$semi-1: #F9ED9D;
+$semi-2: #FDCD07;
+$wheel-2: #5D264E;
+$back-inner: #058088;
+$base-line: #FC615C;
+$triangle-back: #9DFAE7;
+$front-wheel-tri: #FE7D78;
+$handle: #F95F5A;
+
+body {
+  background-color: $primary;
+}
+
+.container {
+  width: 750px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  background: $primary;
+  overflow: hidden;
+  border: 1px solid #dbd8a1;
+  box-shadow: 3px 3px #dbd8a1, -0.5em 0 .4em #dbd8a1;
+}
+
+.ground {
+  width: inherit;
+  height: 150px;
+  position: absolute;
+  top: calc(600px - 150px);
+  left: 0px;
+  background-color: $ground;
+}
+
+.front-wheel {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(600px - 350px);
+  left: 130px;
+  background: $semi-1;
+  z-index: 25;
+  .cut {
+    height: 101px * 2;
+    width: 101px;
+    border-bottom: 1px solid rgba(252, 182, 2, 0.4);
+    border-bottom-right-radius: 101px * 2;
+    border-top-right-radius: 101px * 2;
+    position: absolute;
+    left: 45%;
+    top: 22px;
+    transform: rotate(30deg);
+    background: $semi-2;  
+    background: linear-gradient(to right, #FAC201, #FAD403); 
+  }
+}
+
+.back-wheel {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(600px - 350px);
+  right: 60px;
+  background: $wheel-2;
+  z-index: 2;
+  
+  .inner-back {
+    width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: $back-inner;
+    .semi-inner {
+      height: 69px * 2;
+      width: 69px;
+      border-top-right-radius: 142px;
+      border-bottom-right-radius: 142px;
+      position: absolute;
+      top: 38px;
+      left: 35px;
+      transform: rotate(90deg);
+      background: $primary;
+    }
+  }
+}
+
+.base-line {
+  width: 526px;
+  height: 20px;
+  position: absolute;
+  top: 430px;
+  right: 0px;
+  z-index: 0;
+  background: $base-line;
+}
+
+.center-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  background: $wheel-2;
+}
+
+.triangle-blackwheel {
+  width: 0px;
+  height: 0px;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 180px solid $triangle-back;
+  position: absolute;
+  top: 172px;
+  left: 410px;
+  z-index: 3;
+  opacity: 0.8;
+}
+
+.right-bg {
+  width: 170px;
+  height: 430px;
+  position: absolute;
+  right: 0px;
+  background: linear-gradient(to right, #44EAC6, #21E1BC); 
+}
+.right-bg-two {
+  width: 0;
+  height: 0;
+  border-left: 220px solid transparent;
+  border-right: 220px solid transparent;
+  border-bottom: 100px solid #44EAC6;
+  position: absolute;
+  right: -20px;
+  top: 118px;
+  transform: rotate(-90deg);
+}
+
+.triangle-frontwheel {
+  width: 0px;
+  height: 0px;
+  border-left: 90px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 180px solid $front-wheel-tri;
+  position: absolute;
+  top: 172px;
+  left: 259px;
+  z-index: 3;
+  opacity: 0.8;
+  transform: rotate(180deg);
+
+}
+
+.bg-middle {
+  width: 200px;
+  height: 171px;
+  border: 1px solid black;
+  left: 335px;
+  position: absolute;
+  transform: skewX(-24deg);
+  background-color: $wheel-2;
+  box-shadow: inset 12px 0em rgba(50, 17, 34, 0.4);
+}
+
+.bg-left {
+  width: 0px;
+  height: 0px;
+  border-left: 85px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 200px solid #FAC5B5;
+  position: absolute;
+  top: 0px;
+  left: 86px;
+  transform: rotate(180deg);
+}
+
+.handle {
+  width: 17px;
+  height: 100px;
+  position: absolute;
+  background: $handle;
+  z-index: 20;
+  top: 173px;
+  left: 255px;
+  transform: skewX(-29deg);
+}
+
+.handle-bar {
+  width: 55px;
+  height: 11px;
+  background: $wheel-2;
+  position: absolute;
+  top: 130px;
+  left: 224px;
+  transform: skewX(44deg);
+}
+
+.handle-base {
+  width: 15px;
+  height: 42px;
+  background: $wheel-2;
+  position: absolute;
+  top: 130px;
+  left: 266px;
+  transform: skewX(-20deg);
+}
