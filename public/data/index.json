@@ -1,23 +1,23 @@
 {
-  "title": "作品展示",
+  "title": "前端学习",
   "works": [{
-    "name": "网站建设",
-    "content":"专业建站团队为您售后服务",
+    "name": "HTML 学习",
+    "content":"用于展示 HTML 原生样式和经典布局",
     "ico":"fa-code"
   },
     {
-      "name": "域名注册",
-      "content":"个性化域名出售",
+      "name": "CSS 学习",
+      "content":"用于展示 CSS 实现的各种特殊效果",
       "ico":"fa-diamond"
     },
     {
-      "name": "虚拟主机",
-      "content":"快速稳定虚拟机空间出租",
+      "name": "JavaScript 学习",
+      "content":"用于展示 JavaScript 实现的各种动态效果",
       "ico":"fa-cloud"
     },
     {
-      "name": "微信公众号",
-      "content":"微信公众号注册定制",
+      "name": "其他",
+      "content":"用于展示算法、数据结构 等其他学习成果",
       "ico":"fa-weixin"
     }]
 }
