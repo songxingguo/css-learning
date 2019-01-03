@@ -3,9 +3,9 @@ const {mkdir, writeFileSync, readdirSync, statSync} = require('fs');
 const compileFile = require('pug').compileFile;
 const ncp = require('ncp').ncp;
 
-const entry = './../views/index.pug'; // 入口文件
+const entry = './../views/layout.pug'; // 入口文件
 const outdir = './dist/'; // 出口目录
-const works = require('./../public/data/index.json');
+const works = require('../public/data/css.json');
 
 (function translate (entry, outdir,{
   options = {},

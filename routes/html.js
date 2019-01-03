@@ -8,7 +8,7 @@ router.get('/', async (ctx, next) => {
   await ctx.render('list', htmlList)
 })
 
-router.get('/html/first', function (ctx, next) {
+router.get('/first', function (ctx, next) {
   ctx.body = 'this is a users/bar response'
 })
 
