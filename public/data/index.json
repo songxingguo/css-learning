@@ -4,24 +4,24 @@
     "name": "HTML 学习",
     "content":"用于展示 HTML 原生样式和经典布局",
     "ico":"fa-soccer-ball-o",
-    "url": "./../css/index.pug"
+    "url": "/html"
   },
     {
       "name": "CSS 学习",
       "content":"用于展示 CSS 实现的各种特殊效果",
       "ico":"fa-snowflake-o",
-      "url": "/css/index.pug"
+      "url": "/css"
     },
     {
       "name": "JS 学习",
       "content":"用于展示 JavaScript 实现的各种动态效果",
       "ico":"fa-globe",
-      "url": "/css/index.pug"
+      "url": "/js"
     },
     {
       "name": "其他",
       "content":"用于展示算法、数据结构 等其他学习成果",
       "ico":"fa-sun-o",
-      "url": "/css/index.pug"
+      "url": "/other"
     }]
 }
