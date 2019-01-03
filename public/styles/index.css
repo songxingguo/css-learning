@@ -3,6 +3,8 @@ html, body {
 }
 
 #list {
+  position: fixed;
+  width: 100%;
   height: 100%;
   background-color: Darkorange;
   display: flex;
@@ -13,7 +15,11 @@ html, body {
 #list main {
   width: 90%;
   display: flex;
-  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+#list main section {
+  margin-left: 50px;
 }
 
 

@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title CSS 学习
+    link(rel='stylesheet', href='./styles/index.css')
+  body
+    #list
+      header
+        h1 #{title}
+      main
+        each section in sections
+          section
+            h2 #{section.title}
+            ul
+              each val in section.list
+               li
+                a(href=`${val.url}`) #{val.name}
+

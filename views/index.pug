@@ -4,14 +4,15 @@ block content
   div(class="mian")
    div(class="adframe")
    each val in works
-    div(class="adleft")
-       div(class="ico")
-         i(class=`fa ${val.ico}`)
-       span(class="title") #{val.name}
-       span(class="depict") #{val.content}
-       div#r(class="right")
-         div(class="rbt")
-          span #{val.name}
-    div(class="adright")
+    a(href=`${val.url}`)
+      div(class="adleft")
+         div(class="ico")
+           i(class=`fa ${val.ico}`)
+         span(class="title") #{val.name}
+         span(class="depict") #{val.content}
+         div#r(class="right")
+           div(class="rbt")
+            span #{val.name}
+      div(class="adright")
 
 
