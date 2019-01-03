@@ -6,6 +6,8 @@ const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 
+const csrf = require('./middleware/test.js');
+
 const index = require('./routes/index')
 const html = require('./routes/html')
 const css = require('./routes/css')
@@ -23,7 +25,11 @@ app.use(json())
 app.use(logger())
 app.use(require('koa-static')(__dirname + '/public'))
 
-app.use(views(__dirname + '/views', {
+// app.use(views(__dirname + '/views', {
+//   extension: 'pug'
+// }))
+
+app.use(csrf(__dirname + '/views', {
   extension: 'pug'
 }))
 
