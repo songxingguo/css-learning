@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+}
+
+#code {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#code .view {
+  width: 100%;
+}
+
+#code .hd {
+  width: 100%;
+  height: 50px;
+  background-color: LightSteelBlue;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+#code .bd {
+  margin: 50px 0 50px 20px;
+}
+
+
+
+

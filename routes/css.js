@@ -8,8 +8,8 @@ router.get('/', async (ctx, next) => {
   await ctx.render('list', cssList)
 })
 
-router.get('/first', function (ctx, next) {
-  ctx.body = 'this is a users/bar response'
+router.get('/first', async (ctx, next) => {
+  await ctx.render('code', cssList)
 })
 
 module.exports = router
