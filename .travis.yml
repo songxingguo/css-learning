@@ -27,6 +27,13 @@ after_script:
   - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages --tags
 # E: Build LifeCycle
 
+after_success:
+  - npm prune --production  # 删除devDependencies
+  - tar -jcf indoor-server.tar.bz2 *    # 打包并压缩代码
+  - scp indoor-server.tar.bz2 ${REMOTE_SERVER}:~/  # 复制到生产服务器上
+  - ssh ${REMOTE_SERVER} 'mkdir -p indoor-server && tar -jxf indoor-server.tar.bz2 -C indoor-server'   # 解压
+  - ssh ${REMOTE_SERVER} 'cd indoor-server && node run prd'  # 重启pm2
+
 branches:
   only:
     - master
@@ -34,3 +41,4 @@ env:
   global:
     # Github Pages
     - GH_REF: github.com/songxingguo/learning.git
+    - REMOTE_SERVER: root@47.100.232.2
