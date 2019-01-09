@@ -1,37 +1,37 @@
 language: node_js
 node_js:
-  - 8.12.0
+- 8.12.0
 before_install:
-  - openssl aes-256-cbc -K $encrypted_71abeeae74bb_key -iv $encrypted_71abeeae74bb_iv
-    -in id_rsa.enc -out ~/.ssh/id_rsa -d
-  - chmod 600 ~/.ssh/id_rsa
-  - echo -e "Host 47.100.232.2\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- openssl aes-256-cbc -K $encrypted_71abeeae74bb_key -iv $encrypted_71abeeae74bb_iv
+  -in id_rsa.enc -out id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- echo -e "Host 47.100.232.2\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
-  - npm install
+- npm install
 before_script:
 script:
-  - npm run release
+- npm run release
 after_script:
-  - cd ./dist
-  - git init
-  - git config user.name "songxingguo"
-  - git config user.email "1328989942@qq.com"
-  - git add .
-  - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
-  - git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-  - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages --tags
+- cd ./dist
+- git init
+- git config user.name "songxingguo"
+- git config user.email "1328989942@qq.com"
+- git add .
+- git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+- git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+- git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages --tags
 after_success:
-  - npm prune --production
-  - tar -jcf indoor-server.tar.bz2 *
-  - scp indoor-server.tar.bz2 ${REMOTE_SERVER}:~/
-  - ssh ${REMOTE_SERVER} 'mkdir -p indoor-server && tar -jxf indoor-server.tar.bz2 -C
-    indoor-server'
-  - ssh ${REMOTE_SERVER} 'cd indoor-server && npm run prd'
+- npm prune --production
+- tar -jcf indoor-server.tar.bz2 *
+- scp indoor-server.tar.bz2 ${REMOTE_SERVER}:~/
+- ssh ${REMOTE_SERVER} 'mkdir -p indoor-server && tar -jxf indoor-server.tar.bz2 -C
+  indoor-server'
+- ssh ${REMOTE_SERVER} 'cd indoor-server && npm run prd'
 branches:
   only:
-    - master
+  - master
 env:
   global:
-    - GH_REF: github.com/songxingguo/learning.git
-    - REMOTE_SERVER: root@47.100.232.2
+  - GH_REF: github.com/songxingguo/learning.git
+  - REMOTE_SERVER: root@47.100.232.2
