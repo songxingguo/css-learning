@@ -3,7 +3,7 @@ node_js:
   - 8.12.0
 
 before_install:
-  - in id_rsa.enc -out ~/.ssh/id_rsa -d
+  - in id_rsa -out ~/.ssh/id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
   - echo -e "Host 47.100.232.2\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
