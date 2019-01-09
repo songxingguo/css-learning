@@ -3,8 +3,8 @@ node_js:
   - 8.12.0
 before_install:
   - openssl aes-256-cbc -K $encrypted_71abeeae74bb_key -iv $encrypted_71abeeae74bb_iv
-    -in id_rsa.enc -out ~/.ssh/id_rsa -d
-  - chmod 600 ~/.ssh/id_rsa
+    -in id_rsa_learning.enc -out id_rsa_learning -d
+  - chmod 600 ~/.ssh/id_rsa_learning
   - echo -e "Host 47.100.232.2\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
   - npm install
