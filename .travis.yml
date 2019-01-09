@@ -1,22 +1,16 @@
 language: node_js
 node_js:
   - 8.12.0
-
 before_install:
-  - in id_rsa -out ~/.ssh/id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_71abeeae74bb_key -iv $encrypted_71abeeae74bb_iv
+    -in id_rsa.enc -out C:\\Users\\admin\\.ssh\\id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
   - echo -e "Host 47.100.232.2\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-
-# S: Build Lifecycle
 install:
   - npm install
-
 before_script:
-# - npm install -g gulp
-
 script:
   - npm run release
-
 after_script:
   - cd ./dist
   - git init
@@ -24,26 +18,20 @@ after_script:
   - git config user.email "1328989942@qq.com"
   - git add .
   - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-  # Github Pages
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
-  # Add Tag
   - git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-  # Github Pages
   - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages --tags
-# E: Build LifeCycle
-
 after_success:
-  - npm prune --production  # 删除devDependencies
-  - tar -jcf indoor-server.tar.bz2 *    # 打包并压缩代码
-  - scp indoor-server.tar.bz2 ${REMOTE_SERVER}:~/  # 复制到生产服务器上
-  - ssh ${REMOTE_SERVER} 'mkdir -p indoor-server && tar -jxf indoor-server.tar.bz2 -C indoor-server'   # 解压
-  - ssh ${REMOTE_SERVER} 'cd indoor-server && npm run prd'  # 重启pm2
-
+  - npm prune --production
+  - tar -jcf indoor-server.tar.bz2 *
+  - scp indoor-server.tar.bz2 ${REMOTE_SERVER}:~/
+  - ssh ${REMOTE_SERVER} 'mkdir -p indoor-server && tar -jxf indoor-server.tar.bz2 -C
+    indoor-server'
+  - ssh ${REMOTE_SERVER} 'cd indoor-server && npm run prd'
 branches:
   only:
     - master
 env:
   global:
-    # Github Pages
     - GH_REF: github.com/songxingguo/learning.git
     - REMOTE_SERVER: root@47.100.232.2
