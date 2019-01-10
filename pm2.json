@@ -1,18 +1,15 @@
 {
-  "apps": [
-    {
-      "name": "works",
-      "script": "bin/www",
-      "cwd": "./",
-      "watch": [
-        "bin",
-        "config",
-        "routes",
-        "views"
-      ],
-      "error_file": "./logs/works-err.log",
-      "out_file": "./logs/works-out.log",
-      "log_date_format": "YYYY-MM-DD HH:mm Z"
-    }
-  ]
+  "name": "learning",
+  "script": "bin/www",
+  "cwd": "./",
+  "exec_mode": "fork",
+  "watch": true,
+  "ignore_watch": ["tmp"],
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": "443"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
 }
