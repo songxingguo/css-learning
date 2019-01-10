@@ -12,7 +12,7 @@ script:
   - npm run release
 after_success:
   - npm prune --production
-  - tar -jcf indoor-server.tar.bz2 *
+  - tar -zcvf indoor-server.tar.bz2 *
   - tar -ztvf indoor-server.tar.bz2
   - scp indoor-server.tar.bz2 ${REMOTE_SERVER}:~/
   - ssh ${REMOTE_SERVER} 'mkdir -p indoor-server && tar -jxf indoor-server.tar.bz2 -C
