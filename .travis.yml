@@ -9,7 +9,7 @@ before_install:
 install:
   - npm install
 script:
-  - npm run test
+  - npm run release
 after_success:
   - npm prune --production
   - tar -jcf indoor-server.tar.bz2 *
