@@ -13,7 +13,6 @@ script:
 after_success:
   - npm prune --production
   - tar -zcvf indoor-server.tar.bz2 *
-  - tar -ztvf indoor-server.tar.bz2
   - scp indoor-server.tar.bz2 ${REMOTE_SERVER}:~/
   - ssh ${REMOTE_SERVER} 'mkdir -p indoor-server && tar -zxvf indoor-server.tar.bz2 -C
     indoor-server'
